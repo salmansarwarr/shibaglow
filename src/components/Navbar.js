@@ -45,11 +45,11 @@ export default function Navbar() {
         <div className="lg:hidden mt-4 space-y-4">
           <ul className="flex flex-col space-y-3 text-white text-[18px] font-medium">
             <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-            <li><Link href="/introduction" onClick={() => setMenuOpen(false)}>Introduction</Link></li>
-            <li><Link href="/sponsors" onClick={() => setMenuOpen(false)}>Sponsors</Link></li>
-            <li><Link href="/tokenomics" onClick={() => setMenuOpen(false)}>Tokenomics</Link></li>
-            <li><Link href="/roadmap" onClick={() => setMenuOpen(false)}>Roadmap</Link></li>
-            <li><Link href="/holders-benefits" onClick={() => setMenuOpen(false)}>Holders' Benefits</Link></li>
+            <li><Link href="#about-us" onClick={() => setMenuOpen(false)}>Introduction</Link></li>
+            <li><Link href="#sponsors" onClick={() => setMenuOpen(false)}>Sponsors</Link></li>
+            <li><Link href="#tokenomics" onClick={() => setMenuOpen(false)}>Tokenomics</Link></li>
+            <li><Link href="#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</Link></li>
+            <li><Link href="#benefits" onClick={() => setMenuOpen(false)}>Holders' Benefits</Link></li>
             <li>
               <Link href="/whitepaper" onClick={() => setMenuOpen(false)}>
                 <div className=" flex items-center justify-center bg-white text-[#301A0D] text-[16px] font-semibold rounded-xl">
