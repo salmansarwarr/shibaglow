@@ -42,7 +42,7 @@ const Roadmap = () => {
     ];
 
     return (
-        <div className="bg-[#94571C33] text-white py-8 sm:py-12 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-32">
+        <div id="roadmap" className="bg-[#94571C33] text-white py-8 sm:py-12 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-32">
             <div className="max-w-6xl mx-auto">
                 {/* Title */}
                 <div className="text-center mb-4 lg:mb-8 flex flex-col items-center">

@@ -76,7 +76,7 @@ const Hero = () => {
                     >
                         <span>The Meme Coin</span>
                         <span className="block">for Community</span>
-                        <span className="block">Fun, and Financial</span>
+                        <span className="block">Fun and Financial</span>
                         <span className="block">Rewards</span>
                     </h1>
 

@@ -7,17 +7,17 @@ const sponsors = [
   {
     name: 'FaZe Banks',
     role: 'Youtuber',
-    image: '/sponsor1.png', 
+    image: '/sponsor3.png', 
   },
   {
     name: 'TJR Trades',
     role: 'Youtuber',
-    image: '/sponsor2.png',
+    image: '/sponsor1.png',
   },
   {
     name: 'Logan Paul',
     role: 'Youtuber',
-    image: '/sponsor3.png',
+    image: '/sponsor2.png',
   },
   {
     name: 'Davinci Jeremie',
@@ -28,7 +28,7 @@ const sponsors = [
 
 const Sponsors = () => {
   return (
-    <div className="bg-[#94571C33] text-white py-16 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
+    <div id='sponsors' className="bg-[#94571C33] text-white py-16 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
       <div className="text-center mb-12 flex flex-col items-center">
         <h2 className="text-3xl sm:text-4xl md:text-[49px] font-bold text-[#94571C] mb-2">Sponsors</h2>
         <p className="text-base sm:text-lg md:text-[30px] max-w-[719px] text-white">

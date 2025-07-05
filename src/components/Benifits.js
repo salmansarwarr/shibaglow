@@ -16,7 +16,7 @@ const Benefits = () => {
         };
     
     return (
-        <div className="text-white pt-8 pb-14 md:pt-18 md:pb-32 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
+        <div id="benifits" className="text-white pt-8 pb-14 md:pt-18 md:pb-32 px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
             <div className="flex flex-col items-center justify-center text-center mb-2 md:mb-6">
                 <h2 className="text-4xl sm:text-[49px] font-bold text-[#94571C] lg:mb-2">
                     Holders’ Benefits

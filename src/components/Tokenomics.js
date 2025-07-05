@@ -5,7 +5,7 @@ import React from "react";
 
 const Tokenomics = () => {
     return (
-        <div className="text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-32">
+        <div id="tokenomics" className="text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-32">
             {/* Header Section */}
             <div className="text-center mb-4 lg:mb-8 flex flex-col items-center">
                 <h2 className="text-3xl sm:text-4xl md:text-[49px] font-bold text-[#94571C] mb-2">

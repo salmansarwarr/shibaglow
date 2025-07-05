@@ -9,6 +9,7 @@ import Roadmap from "@/components/Roadmap";
 import Benefits from "@/components/Benifits";
 import Footer from "@/components/Footer";
 import Wrapper from "@/web3/Wrapper";
+import Head from "next/head";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -20,6 +21,10 @@ export default function Home() {
     return (
         <Wrapper>
             <div className={`bg-[#231105] ${poppins.className}`}>
+                <Head>
+                    <title>ShibaGlow</title>
+                    <meta name="description" content="ShibaGlow - The ultimate meme token for the Shiba Inu community." />
+                </Head>
                 <Navbar />
                 <Hero />
                 <AboutUs />

@@ -25,11 +25,11 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-12 mt-6">
           <ul className="flex items-center space-x-8 text-white text-[18px] lg:text-[19px] 2xl:text-[22px]">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/introduction">Introduction</Link></li>
-            <li><Link href="/sponsors">Sponsors</Link></li>
-            <li><Link href="/tokenomics">Tokenomics</Link></li>
-            <li><Link href="/roadmap">Roadmap</Link></li>
-            <li><Link href="/holders-benefits">Holders' Benefits</Link></li>
+            <li><Link href="#about-us">Introduction</Link></li>
+            <li><Link href="#sponsors">Sponsors</Link></li>
+            <li><Link href="#tokenomics">Tokenomics</Link></li>
+            <li><Link href="#roadmap">Roadmap</Link></li>
+            <li><Link href="#benefits">Holders' Benefits</Link></li>
           </ul>
 
           <Link href="/whitepaper">
