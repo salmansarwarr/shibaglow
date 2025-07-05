@@ -63,9 +63,9 @@ const Hero = () => {
     return (
         <div className="2xl:mt-8 flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-14 py-6 sm:py-8 md:py-10 relative overflow-hidden">
             {/* Floating Visual Elements */}
-            <div className="absolute top-14 right-8 w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 bg-yellow-400 rounded-full opacity-30 shadow-xl"></div>
+            {/* <div className="absolute top-14 right-8 w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 bg-yellow-400 rounded-full opacity-30 shadow-xl"></div>
             <div className="absolute bottom-16 left-8 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-orange-400 rounded-full opacity-20"></div>
-            <div className="absolute top-1/3 left-1/4 w-2 h-2 sm:w-2.5 sm:h-2.5 bg-amber-300 rounded-full opacity-15"></div>
+            <div className="absolute top-1/3 left-1/4 w-2 h-2 sm:w-2.5 sm:h-2.5 bg-amber-300 rounded-full opacity-15"></div> */}
 
             {/* Main Content */}
             <div className="relative z-10 text-center sm:text-left text-white w-full max-w-[1440px] mx-auto">
